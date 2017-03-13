@@ -21,9 +21,10 @@
 <script>
   import {urlParse} from 'common/js/util';
   import header from 'components/header/header.vue';
-
+  import datas from '../data.js';
   const ERR_OK = 0;
 
+console.log(datas);
   export default {
     data() {
       return {
